@@ -1,0 +1,19 @@
+.footer {
+    background-color: $secondary-background-color;
+    text-align: center;
+
+    i {
+        background-color: $secondary-font-color;
+        @include square-icon(50px);
+    }
+
+    .col-1-2 {
+        padding: 30px;
+    }
+    
+    a,
+    span {
+        margin-top: 5px;
+        display: block;
+    }
+}
